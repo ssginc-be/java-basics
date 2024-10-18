@@ -12,6 +12,12 @@ repositories {
 dependencies {
     testImplementation platform('org.junit:junit-bom:5.10.0')
     testImplementation 'org.junit.jupiter:junit-jupiter'
+
+    // day14: jsoup 설치
+    implementation 'org.jsoup:jsoup:1.18.1'
+
+    // Save Excel
+    implementation 'org.apache.poi:poi-ooxml:5.2.3'
 }
 
 test {
